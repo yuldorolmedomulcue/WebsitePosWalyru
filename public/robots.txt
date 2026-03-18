@@ -1,0 +1,24 @@
+# Robots.txt para Walyru POS
+# Optimizado para SEO
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /video/
+Disallow: /node_modules/
+Disallow: /*.jsx
+Disallow: /*.js
+Disallow: /auth/
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://walyru.com/sitemap.xml

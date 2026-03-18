@@ -1,0 +1,17 @@
+{
+  "contact": {
+    "title": "Mándanos un mensaje y nuestro equipo te responderá.",
+    "subtitle": "Envíanos un mensaje",
+    "description": "Walyru POS es un software estratégico centrado en la creación de experiencias de venta poderosas y atractivas que conectan con los clientes y impulsan el crecimiento de negocios."
+  },
+  "form": {
+    "fields": [
+      {"name": "firstName", "placeholder": "Nombres", "type": "text", "required": true},
+      {"name": "lastName", "placeholder": "Apellidos", "type": "text", "required": true},
+      {"name": "email", "placeholder": "Correo electrónico", "type": "email", "required": true},
+      {"name": "company", "placeholder": "Empresa", "type": "text", "required": false}
+    ],
+    "locationOptions": ["Colombia", "Mexico", "Ecuador", "Otros"],
+    "submitText": "Enviar mensaje"
+  }
+}

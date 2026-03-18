@@ -1,0 +1,55 @@
+{
+  "initialTestimonials": {
+    "column1": [
+      {
+        "id": 1,
+        "avatar": "/images/avatar9.png",
+        "name": "Olmedo C.",
+        "username": "@olmedocasso",
+        "content": "Excelente pues cuenta con facturacion electronica y excelente atencion al cliente, me gusta el software POS Walyru para mi tienda",
+        "time": "2:22 PM",
+        "likes": "232 like",
+        "comments": "81 com."
+      }
+    ],
+    "column2": [
+      {
+        "id": 3,
+        "avatar": "/images/avatar3.png",
+        "name": "Melody M.",
+        "username": "@melodymontiel",
+        "content": "Excelente pos, manejo un control de mis ventas y movimientos de caja, me gusta lo sencillo que es el software y lo completo que es para vender en mi negocio",
+        "time": "9:18 PM",
+        "likes": "12 like",
+        "comments": "1 com."
+      }
+    ],
+    "column3": [
+      {
+        "id": 6,
+        "avatar": "/images/avatar7.png",
+        "name": "Sara Campo",
+        "username": "@saraCampo",
+        "content": "El control de mis ventas e inventario lo manejo mejor con esta plataforma, llevar un control de mis clientes y productos es mas facil con Walyru",
+        "time": "3:11 PM",
+        "likes": "2 like",
+        "comments": "1 com."
+      }
+    ],
+    "column4": [
+      {
+        "id": 7,
+        "avatar": "/images/avatar5.png",
+        "name": "Gustavo Petro",
+        "username": "@gustavpetro",
+        "content": "El mejor software de ventas que he utilizado, tengo reportes y manejo de clientes y productos, un software para tiendas y negocios, el cual tiene un precio economico con muchas funciones, me gusta la plataforma",
+        "extraContent": [
+          "Me gusto la atencion al  usuario"
+        ],
+        "time": "5:48 PM",
+        "likes": "232 like",
+        "comments": "81 com."
+      }
+    ]
+  }
+}

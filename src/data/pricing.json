@@ -1,0 +1,97 @@
+{
+  "pricing": {
+    "title": "Suscríbete a Walyru POS y lleva tu negocio al siguiente nivel",
+    "subtitle": "Elige el plan que mejor se adapte a tus necesidades y haz crecer tu negocio con Walyru POS.",
+    "monthlyLabel": "Mensual",
+    "annualLabel": "Anual",
+    "savings": "Ahorra 20%"
+  },
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basico",
+      "description": "Ideal para pequeñas empresas",
+      "monthlyPrice": 22990,
+      "annualPrice": 219900,
+      "features": [
+        "1 Usuario",
+        "1 Caja",
+        "200 Productos",
+        "150 Facturas electronicas",
+        "1 Solo rol (Aparte del administrador)",
+        "3 Proveedores",
+        "Envio de factura por correo pero sin imagen"
+      ],
+      "ctaText": "Compra ahora",
+      "ctaLink": "#",
+      "popular": false
+    },
+    {
+      "id": "business",
+      "name": "Estándar",
+      "description": "Ideal para empresas en crecimiento",
+      "monthlyPrice": 42990,
+      "annualPrice": 399900,
+      "features": [
+      "3 Usuarios, 2 Sucursales",
+      "2 Cajas, 3 Roles",
+      "1000 Productos",
+      "500 Facturas electronicas",
+      "Soporte prioritario",
+      "Exportación y importación de excel",
+      "Envia facturas por correo",
+      "Módulo de contactos y reportes"
+      ],
+      "ctaText": "Empieza Ya!",
+      "ctaLink": "#",
+      "popular": true,
+      "badge": "Más popular"
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "description": "Ideal para grandes empresas",
+      "monthlyPrice": 59990,
+      "annualPrice": 549900,
+      "features": [
+        "10 Usuarios, 5 Sucursales, 6 Cajas",
+        "Roles ilimitados",
+        "Productos ilimitados",
+        "Facturas electronicas ilimitadas",
+        "Reportes avanzados",
+        "Reporte Whatsapp",
+        "Beneficios exclusivos",
+        "Imagen en facturas por correo"
+      ],
+      "ctaText": "Empieza Tu Exito!",
+      "ctaLink": "#",
+      "popular": false
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Existe un límite para registrar ventas o facturas en el POS?",
+      "answer": "Depende del plan que manejes para registrar ventas o facturas en el POS de Walyru. Puedes registrar tantas transacciones como necesites."
+    },
+    {
+      "question": "¿Es seguro usar el POS para manejar dinero y facturación?",
+      "answer": "Sí. El POS cuenta con: Conexiones seguras (HTTPS), Control de usuarios y permisos, Registro de movimientos, Respaldo de información, Además, la facturación electrónica se envía directamente a la DIAN"
+    },
+    {
+      "question": "¿Cómo realizo una venta con facturación electrónica?",
+      "answer": "Para realizar una venta con facturación electrónica en el POS de Walyru, simplemente realiza la venta como de costumbre. El sistema generará automáticamente la factura electrónica y se enviará directamente a la DIAN."
+    },
+    {
+      "question": "¿Cuánto tiempo tarda en generarse una factura electrónica?",
+      "answer": "La generación de una factura electrónica en el POS de Walyru es instantánea. Una vez que se completa la venta, el sistema genera automáticamente la factura electrónica y la envía directamente a la DIAN."
+    },
+    {
+      "question": "¿Puedo usar el POS desde diferentes cajas o sucursales?",
+      "answer": "Sí, puedes usar el POS desde diferentes cajas o sucursales. El sistema te permite gestionar múltiples puntos de venta desde una única cuenta."
+    },
+    {
+      "question": "Cómo puedo revisar o hacer seguimiento a una venta o factura?",
+      "answer": "Puedes revisar o hacer seguimiento a una venta o factura desde el panel de administración del POS. Allí encontrarás un historial detallado de todas las transacciones realizadas, incluyendo información sobre el cliente, productos vendidos y estado de la factura."
+    }
+  ]
+}

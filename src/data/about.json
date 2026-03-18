@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "label": "",
+    "title": "",
+    "description": "",
+    "content": "",
+    "image": "",
+    "ctaText": ""
+  },
+  
+  "story": {
+    "label": "",
+    "title": "",
+    "content": "",
+    "images": [
+      "/images/abouts/img2.png",
+      "/images/abouts/img4.png",
+      "/images/abouts/img3.png",
+      "/images/abouts/img.png"
+    ]
+  },
+  "team": [
+    { "name": "Jean Ordoñes", "role": "Co-fundador e Ingeniero Lider de Software", "image": "/images/avatar2.png" },
+    { "name": "Yuldor Mulcue", "role": "Co-fundador y Desarrollador Full Stack", "image": "/images/avatar1.png" },
+    { "name": "Neologic JY", "role": "Marketing & Comunicaciones", "image": "/images/avatar3.png" }
+  ]
+}

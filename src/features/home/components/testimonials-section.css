@@ -1,0 +1,41 @@
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-inner {
+  animation: marqueeScroll 25s linear infinite;
+}
+
+.marquee-reverse {
+  animation-direction: reverse;
+}
+
+.marquee-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.marquee-row {
+  width: 100%;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
