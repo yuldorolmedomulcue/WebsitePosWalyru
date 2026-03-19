@@ -11,4 +11,5 @@ Actualmente, hay dos plugins oficiales disponibles:
 
 Si estás desarrollando una aplicación de producción, recomendamos usar TypeScript con reglas de lint que reconozcan los tipos. Consulta la [plantilla TS](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) para obtener información sobre cómo integrar TypeScript y [`typescript-eslint`](https://typescript-eslint.io) en tu proyecto.
 
-<img width="684" height="426" alt="image" src="https://github.com/user-attachments/assets/77702a1d-78a5-425e-a639-428f42ddb66d" />
+![Captura](https://github.com/user-attachments/assets/1700b3a1-08a5-4420-8e62-ad9e880844fc)
+
