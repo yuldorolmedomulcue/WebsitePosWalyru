@@ -83,7 +83,7 @@ function Footer() {
                 <div className="flex flex-wrap -m-2">
                  
                   <div className="w-full p-2">
-                    <a className="block py-5 px-8 bg-white rounded-full border border-blue-200 hover:border-blue-400 transition duration-300 hover:shadow-lg" href="https://www.facebook.com/profile.php?id=61567712439093" target="_blank">
+                    <a className="block py-5 px-8 bg-white rounded-full border border-blue-200 hover:border-blue-400 transition duration-300 hover:shadow-lg" href="https://www.instagram.com/neologic_sas/" target="_blank">
                       <div className="flex flex-wrap items-center -m-2">
                         <div className="w-auto p-2">
                           <i className="ri-facebook-fill text-blue-500"></i>
@@ -133,12 +133,12 @@ function Footer() {
               <div className="w-auto p-2">
                 <div className="flex flex-wrap items-center -m-2 sm:-m-7">
                   <div className="w-auto p-2 sm:p-7">
-                    <a className="inline-block text-sm text-black/60 hover:text-black font-medium transition duration-300" href="#">
+                    <a className="inline-block text-sm text-black/60 hover:text-black font-medium transition duration-300" href="/pdfs/PdP.pdf" target="_blank">
                       Terminos de Servicio
                     </a>
                   </div>
                   <div className="w-auto p-2 sm:p-7">
-                    <a className="inline-block text-sm text-black/60 hover:text-black font-medium transition duration-300" href="#">
+                    <a className="inline-block text-sm text-black/60 hover:text-black font-medium transition duration-300" href="/pdfs/PdP.pdf" target="_blank">
                       Politica de Privacidad
                     </a>
                   </div>

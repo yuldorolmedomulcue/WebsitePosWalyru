@@ -8,9 +8,9 @@
   "whyUsCards": [
     {
       "id": 1,
-      "image": "/images/porque1.jpg",
+      "image": "/images/porque3.jpg",
       "category": "",
-      "title": "Cumple con la normativa vigente y factura sin errores."
+      "title": "IA integrada para optimizar tu negocio en tiempo real."
     },
     {
       "id": 2,
@@ -20,9 +20,9 @@
     },
     {
       "id": 3,
-      "image": "/images/porque3.jpg",
+      "image": "/images/porque1.jpg",
       "category": "",
-      "title": "IA integrada para optimizar tu negocio en tiempo real."
+      "title": "Cumple con la normativa vigente y factura sin errores."
     }
   ],
   

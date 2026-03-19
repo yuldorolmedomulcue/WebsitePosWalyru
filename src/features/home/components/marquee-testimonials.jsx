@@ -32,13 +32,29 @@ export function MarqueeTestimonialsSection() {
         testimonial: 'Servicio al cliente excepcional. Muy satisfecho.'
       },
 
-       {
+      {
         image: '/images/avatar10.png',
         name: 'Camila Gomez',
         handle: '@Camilagomez',
         date: 'Marzo 16, 2026',
         testimonial: 'Me encanta la facilidad de uso y las funciones avanzadas. Muy recomendado.'
       },
+
+      {
+        image: '/images/team.png',
+        name: 'Sofia Ramirez',
+        handle: '@sofiaramirez',
+        date: 'Marzo 17, 2026',
+        testimonial: 'Una plataforma increíble para gestionar mi negocio. Me ha ahorrado mucho tiempo.'
+      },
+
+      {
+        image: '/images/image6.png',
+        name: 'Jair Mulcue',
+        handle: '@jairmulcue',
+        date: 'Marzo 18, 2026',
+        testimonial: 'La integración con IA es impresionante. Me ha ayudado a mejorar mis ventas y es mas optimo mi tienda. GRACIAAAAS'
+      }
     ];
 
     const row1 = document.getElementById('row1');
