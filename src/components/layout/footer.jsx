@@ -30,6 +30,20 @@ function Footer() {
               <div className="w-full md:w-1/2 lg:w-2/12 p-8">
                 <h3 className="mb-6 text-lg text-black font-medium">Mapa del <span className="text-green-500">Sitio</span></h3>
                 <ul>
+                  <li className="mb-2.5 pb-3">
+                    <Link
+                      className="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300"
+                      to={getRouteByName('#')}
+                    >
+                      Novedades IA
+                    </Link>
+
+                    {/* icono de proximamente */}
+                    <span className="inline-block ml-2 px-2 py-1 text-xs text-white bg-red-500 rounded-full">
+                      Próximamente...
+                    </span>
+                  </li>
+
                   <li className="mb-2.5">
                     <Link
                       className="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300"
@@ -41,23 +55,18 @@ function Footer() {
                   <li className="mb-2.5">
                     <Link
                       className="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300"
-                      to={getRouteByName('blog')}
-                    >
-                      Novedades
-                    </Link>
-                  </li>
-                  <li className="mb-2.5">
-                    <Link
-                      className="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300"
                       to={getRouteByName('about')}
                     >
                       Nuestra Historia
                     </Link>
                   </li>
-                  <li>
-                    <a className="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300" href="#">
+                  <li className="mb-2.5">
+                    <Link
+                      className="inline-block text-lg font-medium text-gray-400 hover:text-black transition duration-300"
+                      to={getRouteByName('pricing')}
+                    >
                       Precios
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
