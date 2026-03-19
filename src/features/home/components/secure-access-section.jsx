@@ -35,8 +35,7 @@ function SecureAccessSection() {
           </div>
         </div>
       </div>
-      <img className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48" src="/images/acceso1.png" alt="" />
-      
+      <img className="absolute top-2/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 md:w-48" src="/images/acceso1.png" alt=""/>      
     </section>
   );
 }

@@ -14,7 +14,7 @@ function HeroSection() {
             alt=""
           />
           <span className="inline-block mb-2.5 text-green-400 font-medium bg-gray-50 px-3 py-2 rounded-full">
-            Software POS con Inteligencia Artificial
+            Software POS para tu negocio
           </span>
           <h1 className="font-heading mb-10 text-7xl lg:text-8xl xl:text-10xl text-black tracking-tighter">
             <span className="text-green-500">Optimiza en </span>tiempo real con IA integrada 
@@ -26,7 +26,7 @@ function HeroSection() {
              shadow-lg shadow-blue-400/40 hover:shadow-sky-400/60"
             href="https://pos.walyru.com/auth/registro.php"
           >
-            <span className="font-medium">Crea una cuenta GRATIS AHORA!</span> <i className="ri-arrow-right-line ml-2"></i>
+            <span className="font-medium">Crea cuenta GRATIS AHORA!</span><i className="ri-arrow-right-line ml-2"></i>
           </a>
         </div>
 

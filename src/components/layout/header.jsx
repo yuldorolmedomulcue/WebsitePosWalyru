@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { getRouteByName, getNavigationRoutes } from '@app/router';
 
@@ -7,7 +7,22 @@ import { getRouteByName, getNavigationRoutes } from '@app/router';
  */
 const Header = React.memo(function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+
+  // Detectar cuando el usuario baja en la página
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMobileNav = useCallback(() => {
     setMobileNavOpen((prev) => !prev);
@@ -20,7 +35,11 @@ const Header = React.memo(function Header() {
   const navigationItems = getNavigationRoutes();
 
   return (
-    <header className="overflow-hidden ">
+    <header className={`sticky top-0 z-40 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white/80 backdrop-blur-md' 
+        : 'bg-white'
+    } overflow-hidden`}>
       <div className="container px-4 mx-auto mt-2">
         <div className="flex items-center justify-between pt-2 -m-2 ">
           <div className="w-auto p-2">
@@ -132,7 +151,7 @@ const Header = React.memo(function Header() {
               <div className="flex items-center justify-between -m-2">
                 <div className="w-auto p-2">
                   <Link className="inline-block" to={getRouteByName('home')}>
-                    <img className='w-50 h-20' src="/images/logo-pos.png" alt="Logo del software POS" />
+                    <img className='w-20 h-20' src="/images/acceso1.png" alt="Logo del software POS" />
                   </Link>
                 </div>
                 <div className="w-auto p-2">
