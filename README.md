@@ -1,6 +1,6 @@
 # React + Vite
 # Ingeniero de Software, YuldorMulcue
-Esta plantilla proporciona una configuración mínima para integrar React en Vite con HMR y algunas reglas de ESLint.
+Esta website proporciona una configuración mínima para integrar React en Vite con HMR y algunas reglas de ESLint.
 
 Actualmente, hay dos plugins oficiales disponibles:
 
