@@ -1,6 +1,37 @@
+const redirectUrl = (params) => {
+  const baseUrl = 'https://pos.walyru.com/auth/registro.php';
+
+  const queryParams = new URLSearchParams(params).toString();
+  // Formato para agregar los parámetros a la URL (?plan=1&tipo_usuario=Usuario&mensualidad=Mensual)
+  var period = params.mensualidad === 'Mes' ? 'Mensual' : 'Anual';
+  var userType = params.tipo_usuario === 'Usuario' ? 'Usuario' : 'Proveedor';
+  var plan = params.plan;
+
+  const finalUrl = `${baseUrl}?plan=${plan}&tipo_usuario=${userType}&mensualidad=${period}`;
+
+  return finalUrl;
+
+
+}
+
 const PricingCard = ({ plan, isMonthly }) => {
+  // Mapear IDs de planes a números según el estándar requerido
+  const getPlanId = (planId) => {
+    switch (planId) {
+      case 'basic':
+        return 3; // Básico
+      case 'business':
+        return 1; // Estándar
+      case 'premium':
+        return 4; // Premium
+      default:
+        return 1;
+    }
+  };
+
   const price = isMonthly ? plan.monthlyPrice : plan.annualPrice;
   const period = isMonthly ? 'Mes' : 'Año';
+  const userType = 'Usuario';
   const sideBadgeText = plan.badge ?? 'Más popular';
   const cardHighlightClasses = plan.popular
     ? 'border-blue-900 shadow-2xl shadow-blue-900/15 lg:-translate-y-1'
@@ -38,7 +69,7 @@ const PricingCard = ({ plan, isMonthly }) => {
           {plan.features.map((feature, idx) => (
             <li key={idx} className="flex items-center mb-4">
               <div className="flex items-center justify-center w-5 h-5 mr-4 border border-green-400 rounded-full">
-                <i class="ri-check-fill"></i>
+                <i className="ri-check-fill"></i>
               </div>
               <p className="text-black">{feature}</p>
             </li>
@@ -46,7 +77,7 @@ const PricingCard = ({ plan, isMonthly }) => {
         </ul>
 
         <a className={`inline-block w-full px-8 py-4 text-center font-medium rounded-full transition duration-300 ${btnClasses}`}
-          href="#">
+          href={redirectUrl({ plan: getPlanId(plan.id), tipo_usuario: userType, mensualidad: period })}>
           {plan.ctaText}
         </a>
 
