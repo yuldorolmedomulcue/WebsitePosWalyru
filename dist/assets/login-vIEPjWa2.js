@@ -1,0 +1,1 @@
+import{j as t}from"./index-Bn6tsyD1.js";import{P as i}from"./page-layout-COKd7MES.js";import{A as o}from"./auth-section-BmUWSr2X.js";import"./input-DBMLPO0X.js";function s(){return t.jsx(i,{title:"Iniciar sesión - Walyru POS",children:t.jsx(o,{type:"login"})})}export{s as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./index-Bn6tsyD1.js";import{P as r}from"./page-layout-COKd7MES.js";import{A as e}from"./auth-section-BmUWSr2X.js";import"./input-DBMLPO0X.js";function m(){return t.jsx(r,{title:"Registrarse - Walyru POS",children:t.jsx(e,{type:"register"})})}export{m as default};
