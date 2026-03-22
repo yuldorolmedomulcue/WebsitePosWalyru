@@ -84,7 +84,7 @@ const Header = React.memo(function Header() {
                 <div className="inline-block">
                   <a
                     className="inline-block px-4 py-2 text-white bg-green-400 tracking-tighter  border-2 border-green-400 focus:border-green-400/40  focus:ring-4 focus:ring-green-400/40 rounded-full transition duration-300"
-                    href="https://pos.walyru.com/auth/registro.php"
+                    href="https://pos.walyru.com/auth/registro.php?plan=2&tipo_usuario=Usuario&mensualidad=Mensual"
                   >
                     Empezar GRATIS!
                   </a>
