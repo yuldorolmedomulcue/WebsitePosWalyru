@@ -14,7 +14,8 @@ function HeroSection() {
             alt=""
           />
           <span className="inline-block mb-2.5 text-green-400 font-medium bg-gray-50 px-3 py-2 rounded-full">
-            Software POS para tu negocio
+            Software POS, Vende y factura electrónicamente a un clic cumpliendo con la <span className="text-green-600">DIAN</span>
+
           </span>
           <h1 className="font-heading mb-10 text-7xl lg:text-8xl xl:text-10xl text-black tracking-tighter">
             <span className="text-green-500">Optimiza en </span>tiempo real con IA integrada 
