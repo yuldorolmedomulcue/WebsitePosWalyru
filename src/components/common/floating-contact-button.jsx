@@ -8,7 +8,7 @@ function FloatingContactButton() {
   };
 
   const handleWhatsApp = () => {
-    window.location.href = 'https://api.whatsapp.com/send/?phone=573005999369&text=Hola%2C+estoy+interesado...&type=phone_number&app_absent=0';
+    window.open('https://api.whatsapp.com/send/?phone=573005999369&text=Hola%2C+estoy+interesad@...&type=phone_number&app_absent=0', '_blank');
   };
 
   const handleEmail = () => {
@@ -45,7 +45,7 @@ function FloatingContactButton() {
           {/* Opción 2: WhatsApp */}
           <button
             onClick={handleWhatsApp}
-            className="w-full flex items-center gap-3 p-4 rounded-xl hover:bg-green-50 transition-colors duration-200 group"
+            className="w-full flex items-center gap-3 p-4 rounded-xl hover:bg-green-50 transition-colors duration-200 group "
           >
             <div className="w-10 h-10 rounded-full bg-green-400 flex items-center justify-center  transition-colors">
               <i className="ri-whatsapp-line text-white text-lg"></i>
@@ -107,7 +107,7 @@ function FloatingContactButton() {
             <img src="/images/bot.gif" alt="Contactar" className="w-21 h-21 rounded-full" />
             {/* Badge de "Hablemos" */}
             <div className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold animate-bounce">
-              3
+              4
             </div>
           </>
         ) : (
@@ -120,12 +120,7 @@ function FloatingContactButton() {
         )}
       </button>
 
-      {/* Label flotante opcional */}
-      {!isOpen && (
-        <div className="absolute bottom-20 right-0 bg-gray-800 text-white px-3 py-2 rounded-lg text-xs font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-          ¿Necesitas ayuda?
-        </div>
-      )}
+      
     </div>
   );
 }
