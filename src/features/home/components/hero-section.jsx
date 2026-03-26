@@ -27,7 +27,7 @@ function HeroSection() {
              shadow-lg shadow-blue-400/40 hover:shadow-sky-400/60"
             href="https://pos.walyru.com/auth/registro.php"
           >
-            <span className="font-medium">Crea cuenta GRATIS AHORA!</span><i className="ri-arrow-right-line ml-2"></i>
+            <span className="font-medium" href="https://pos.walyru.com/auth/registro.php?plan=2&tipo_usuario=Usuario&mensualidad=Mensual">Crea cuenta GRATIS AHORA!</span><i className="ri-arrow-right-line ml-2"></i>
           </a>
         </div>
 
