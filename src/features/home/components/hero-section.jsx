@@ -25,9 +25,9 @@ function HeroSection() {
             className="inline-block px-8 py-4 text-white rounded-full transition duration-300
              bg-gradient-to-r from-blue-500 via-blue-500 to-cyan-400 bg-[length:200%_200%] animate-[gradientShift_4s_ease_infinite]
              shadow-lg shadow-blue-400/40 hover:shadow-sky-400/60"
-            href="https://pos.walyru.com/auth/registro.php"
+            href="https://pos.walyru.com/auth/registro.php?plan=2&tipo_usuario=Usuario&mensualidad=Mensual"
           >
-            <span className="font-medium" href="https://pos.walyru.com/auth/registro.php?plan=2&tipo_usuario=Usuario&mensualidad=Mensual">Crea cuenta GRATIS AHORA!</span><i className="ri-arrow-right-line ml-2"></i>
+            <span className="font-medium">Crea cuenta GRATIS AHORA!</span><i className="ri-arrow-right-line ml-2"></i>
           </a>
         </div>
 
